@@ -108,7 +108,7 @@
                 <a href="#"
                    class="external-link button is-normal is-rounded is-dark">
                   <span class="icon">
-                    <svg class="svg-inline--fa fa-tools fa-w-16" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="tools" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg=""><path fill="currentColor" d="M501.1 395.7L384 278.6c-23.1-23.1-57.6-27.6-85.4-13.9L192 158.1V96L64 0 0 64l96 128h62.1l106.6 106.6c-13.6 27.8-9.2 62.3 13.9 85.4l117.1 117.1c14.6 14.6 38.2 14.6 52.7 0l52.7-52.7c14.5-14.6 14.5-38.2 0-52.7zM331.7 225c28.3 0 54.9 11 74.9 31l19.4 19.4c15.8-6.9 30.8-16.5 43.8-29.5 37.1-37.1 49.7-89.3 37.9-136.7-2.2-9-13.5-12.1-20.1-5.5l-74.4 74.4-67.9-11.3L334 98.9l74.4-74.4c6.6-6.6 3.4-17.9-5.7-20.2-47.4-11.7-99.6.9-136.6 37.9-28.5 28.5-41.9 66.1-41.2 103.6l82.1 82.1c8.1-1.9 16.5-2.9 24.7-2.9zm-103.9 82l-56.7-56.7L18.7 402.8c-25 25-25 65.5 0 90.5s65.5 25 90.5 0l123.6-123.6c-7.6-19.9-9.9-41.6-5-62.7zM64 472c-13.2 0-24-10.8-24-24 0-13.3 10.7-24 24-24s24 10.7 24 24c0 13.2-10.7 24-24 24z"></path></svg>
+                    <i class="fab fa-github"></i>
                   </span>
                   <span>Assembly Guide (Coming Soon)</span>
                 </a>
@@ -158,6 +158,183 @@
         </div>
       </div>
       <!--/ Abstract. -->
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container is-max-desktop">
+    <h2 class="title is-3 text-center">Highlights</h2>
+    <div class="content has-text-justified">
+      <p>
+        AhaRobot leads a new direction in robotics research with its breakthrough low-cost design. With just <span class="has-text-weight-bold">$1,000-2,000</span> in hardware costs, it achieves flexible autonomous control capabilities, which is only <span class="has-text-weight-bold">1/15</span> of the cost of mainstream commercial solutions. This highly cost-effective design not only enables more researchers to participate in embodied AI research but also lays the foundation for the popularization of future home service robots.
+      </p>
+      <p>
+        As shown in the figure, AhaRobot consists of three core components: <span style="color: #2E86C1; font-weight: bold">(1) Low-Cost Hardware</span>: primarily composed of off-the-shelf components, including dual-arm system, mobile base, vision system, and computing unit, with a total cost of only $1,000-2,000; <span style="color: #E67E22; font-weight: bold">(2) Dual-Joint Control Method</span>: an optimized control solution that integrates dual-motor backlash control and static friction compensation to significantly enhance operational precision; <span style="color: #27AE60; font-weight: bold">(3) RoboPilot Teleoperation</span>: a simple remote teleoperation method using handles to control the dual arms and pedals for whole-body movement, making it low-burden and easy to operate, much like piloting.
+      </p>
+    </div>
+    
+    <div class="content">
+      <img src="./static/images/overview.png" alt="Hardware overview of AhaRobot" style="width: 100%;">
+      <p class="has-text-centered font-bold mt-3">Overview of AhaRobot</p>
+    </div>
+
+    <div class="content mt-6">
+      <h3 class="title is-4 has-text-centered mb-3">Comparison of Different Robotic Platform</h3>
+      <div class="table-container">
+        <table class="table is-fullwidth">
+          <thead>
+            <tr>
+              <th class="has-text-centered">Robot Platform</th>
+              <th class="has-text-centered">Cost</th>
+              <th class="has-text-centered">Dual Arm</th>
+              <th class="has-text-centered">Mobile Base</th>
+              <th class="has-text-centered">Reach Floor</th>
+              <th class="has-text-centered">Hardware Open-Source</th>
+              <th class="has-text-centered">DoF</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="has-text-left">Mobile Aloha [9]</td>
+              <td class="has-text-centered">$32,000</td>
+              <td class="has-text-centered">✓</td>
+              <td class="has-text-centered">✓</td>
+              <td class="has-text-centered">✗</td>
+              <td class="has-text-centered">✓</td>
+              <td class="has-text-centered">16</td>
+            </tr>
+            <tr>
+              <td class="has-text-left">Hello Robot [19]</td>
+              <td class="has-text-centered">$24,950</td>
+              <td class="has-text-centered">✗</td>
+              <td class="has-text-centered">✓</td>
+              <td class="has-text-centered">✓</td>
+              <td class="has-text-centered">✗</td>
+              <td class="has-text-centered">7</td>
+            </tr>
+            <tr>
+              <td class="has-text-left">DROID [20]</td>
+              <td class="has-text-centered">≈ $27,000</td>
+              <td class="has-text-centered">✗</td>
+              <td class="has-text-centered">✗</td>
+              <td class="has-text-centered">✗</td>
+              <td class="has-text-centered">✗</td>
+              <td class="has-text-centered">8</td>
+            </tr>
+            <tr>
+              <td class="has-text-left">AgileX COBOT</td>
+              <td class="has-text-centered">≈ $30,000</td>
+              <td class="has-text-centered">✓</td>
+              <td class="has-text-centered">✓</td>
+              <td class="has-text-centered">✗</td>
+              <td class="has-text-centered">✗</td>
+              <td class="has-text-centered">16</td>
+            </tr>
+            <tr>
+              <td class="has-text-left">TIAGo</td>
+              <td class="has-text-centered">> $200,000</td>
+              <td class="has-text-centered">✗</td>
+              <td class="has-text-centered">✓</td>
+              <td class="has-text-centered">✗</td>
+              <td class="has-text-centered">✗</td>
+              <td class="has-text-centered">11</td>
+            </tr>
+            <tr class="has-background-info-light has-text-weight-bold">
+              <td class="has-text-left">AhaRobot</td>
+              <td class="has-text-centered">$1,000-2,000</td>
+              <td class="has-text-centered">✓</td>
+              <td class="has-text-centered">✓</td>
+              <td class="has-text-centered">✓</td>
+              <td class="has-text-centered">✓</td>
+              <td class="has-text-centered">16</td>
+            </tr>
+          </tbody>
+        </table>
+        <p class="has-text-centered mb-4">The price of $1000 does not include computing resources, while $2000 version is for the Mini-ITX computer with an RTX4060 GPU.</p>
+
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container is-max-desktop">
+    <h2 class="title is-3 text-center">Hardware Design</h2>
+    <div class="content">
+      <img src="./static/images/hardware.png" alt="Hardware Design of AhaRobot" style="width: 100%;">
+      <p class="has-text-centered font-bold mt-3">We put the arm horizontally to counter gravity, provide lifting ability, and reduce the cost</p>
+      
+      <div class="table-container mt-5">
+        <h4 class="title is-4 has-text-centered mb-4">Core Parameters of AhaRobot</h4>
+        <table class="table is-fullwidth is-bordered">
+          <thead>
+            <tr class="has-background-light">
+              <th class="has-text-centered" style="width: 50%">Category</th>
+              <th class="has-text-centered" style="width: 50%">Value</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="has-text-left">Payload (Single Arm)</td>
+              <td class="has-text-centered">1.5 kg</td>
+            </tr>
+            <tr>
+              <td class="has-text-left">Weight</td>
+              <td class="has-text-centered">51 kg</td>
+            </tr>
+            <tr>
+              <td class="has-text-left">Size</td>
+              <td class="has-text-centered">550×500×1550 mm</td>
+            </tr>
+            <tr>
+              <td class="has-text-left">Max Gripper Width</td>
+              <td class="has-text-centered">120 mm</td>
+            </tr>
+            <tr>
+              <td class="has-text-left">Max Reach (X-Y Plane)</td>
+              <td class="has-text-centered">750 mm</td>
+            </tr>
+            <tr>
+              <td class="has-text-left">Z-Axis Reach</td>
+              <td class="has-text-centered">1250 mm</td>
+            </tr>
+            <tr>
+              <td class="has-text-left">Battery Life</td>
+              <td class="has-text-centered">4-5 hr</td>
+            </tr>
+            <tr>
+              <td class="has-text-left">Min Turning Radius</td>
+              <td class="has-text-centered">0</td>
+            </tr>
+            <tr>
+              <td class="has-text-left">Turning Sweeping Radius</td>
+              <td class="has-text-centered">500 mm</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container is-max-desktop">
+    <h2 class="title is-3 text-center">Control System</h2>
+    <div class="content">
+      <img src="./static/images/control.png" alt="Control System of AhaRobot" style="width: 100%;">
+      <p class="has-text-centered font-bold mt-3">We introduce Dual-Joint Control System to further enhance robot control precision</p>
+      <p class="has-text-centered mt-2">Experimental results demonstrate that our design can achieve more stable tracking of various waveforms</p>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container is-max-desktop">
+    <h2 class="title is-3 text-center">Robopilot Teleoperation</h2>
+    <div class="content">
+      <img src="./static/images/robopilot.png" alt="RoboPilot Teleoperation Workstation" style="width: 100%;">
+      <p class="has-text-centered font-bold mt-3">Web-Based Teleopration Workstation anyone can easily set up at a dinner table</p>
     </div>
   </div>
 </section>
